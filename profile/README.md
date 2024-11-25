@@ -2,8 +2,6 @@
 
 # Elementra
 
-![Elementra Logo](https://via.placeholder.com/150)
-
 Your Building Blocks for Modern UIs
 
 [![npm version](https://img.shields.io/npm/v/elementra.svg)](https://www.npmjs.com/package/elementra)
