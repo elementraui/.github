@@ -65,16 +65,6 @@ A simple input field component.
 - `value` (string): Controlled value of the input.
 - `onChange` (function): Callback triggered when the input value changes.
 
-#### Usage:
-
-````jsx
-<TextInput
-  placeholder="Enter your name"
-  value={name}
-  onChange={(e) => setName(e.target.value)}
-/>
-<div align="center">
-
 
 ### Core Components
 
