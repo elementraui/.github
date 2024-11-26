@@ -1,12 +1,10 @@
-<div align="center">
-
 # Elementra
 
 Your Building Blocks for Modern UIs
 
-[![npm version](https://img.shields.io/npm/v/elementra.svg)](https://www.npmjs.com/package/elementra)
+[![npm version](https://img.shields.io/npm/v/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dm/elementra.svg)](https://www.npmjs.com/package/elementra)
+[![Downloads](https://img.shields.io/npm/dm/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
 
 </div>
 
@@ -28,31 +26,26 @@ Install Elementra using your preferred package manager:
 
 ```bash
 # Using npm
-npm install elementra
+npm install elementra-ui
 
 # Using yarn
-yarn add elementra
+yarn add elementra-ui
 
 # Using pnpm
-pnpm add elementra
+pnpm add elementra-ui
 ```
 
 ## Quick Start 💻
 
 ```jsx
-import { Button, Modal } from 'elementra';
+import { Button, Modal } from "elementra";
 
 export default function App() {
   return (
     <div>
-      <Button variant="primary">
-        Click Me
-      </Button>
-      
-      <Modal 
-        isOpen={true} 
-        onClose={() => console.log('Closed!')}
-      >
+      <Button variant="primary">Click Me</Button>
+
+      <Modal isOpen={true} onClose={() => console.log("Closed!")}>
         <h1>Welcome to Elementra!</h1>
       </Modal>
     </div>
@@ -62,34 +55,51 @@ export default function App() {
 
 ## Component Library 🛠️
 
+### TextInput
+
+A simple input field component.
+
+#### Props:
+
+- `placeholder` (string): Text to display when the input is empty.
+- `value` (string): Controlled value of the input.
+- `onChange` (function): Callback triggered when the input value changes.
+
+#### Usage:
+
+````jsx
+<TextInput
+  placeholder="Enter your name"
+  value={name}
+  onChange={(e) => setName(e.target.value)}
+/>
+<div align="center">
+
+
 ### Core Components
 
 - **Buttons**
   - Primary, secondary, outlined variants
   - Loading states
   - Icon support
-  
+
 - **Modals**
   - Configurable animations
   - Multiple sizes
   - Custom positioning
-  
+
 - **Cards**
   - Flexible layouts
   - Header/footer support
   - Hover effects
-  
+
 - **Forms**
   - Input fields
   - Checkboxes
   - Radio buttons
   - Switches
   - Select menus
-  
-- **Alerts**
-  - Multiple variants (info, success, warning, error)
-  - Dismissible options
-  - Custom durations
+
 
 ## Documentation 📖
 
@@ -100,30 +110,6 @@ Visit our [documentation website](https://elementraui.com) for:
 - Best practices
 - Migration guides
 
-## Customization 🎨
-
-### Theme Configuration
-
-```jsx
-import { ThemeProvider } from 'elementra';
-
-const theme = {
-  colors: {
-    primary: '#0066ff',
-    secondary: '#6c757d',
-    // ... other color overrides
-  },
-  // ... other theme options
-};
-
-function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      {/* Your app content */}
-    </ThemeProvider>
-  );
-}
-```
 
 ## Contributing 🤝
 
@@ -138,7 +124,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 - 📫 [GitHub Discussions](https://github.com/elementra/discussions)
 - 🐦 [Twitter @ElementraUI](https://twitter.com/ElementraUI)
-- 📺 [YouTube Channel](https://youtube.com/@WaleedCodes)
+- 📺 [YouTube Channel](https://youtube.com/@waleedcodes)
 - 💬 [Discord Community](https://discord.gg/elementra)
 
 ## License 📄
@@ -149,10 +135,10 @@ Elementra is open-source software licensed under the [MIT License](LICENSE).
 
 - Website: [www.elementraui.com](https://www.elementraui.com)
 - Twitter: [@ElementraUI](https://twitter.com/ElementraUI)
-- YouTube: [WaleedCodes](https://youtube.com/@WaleedCodes)
+- YouTube: [WaleedCodes](https://youtube.com/@waleedcodes)
 
 ---
 
 <div align="center">
-  Made with ❤️ by the Elementra Team
+  Made with ❤️ by the Elementra Team @waleecodes
 </div>
