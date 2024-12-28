@@ -4,13 +4,13 @@ Your Building Blocks for Modern UIs
 
 [![npm version](https://img.shields.io/npm/v/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dm/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
+[![Downloads](https://img.shields.io/npm/dm/elementra.svg)](https://www.npmjs.com/package/elementra-ui)
 
 </div>
 
 ## Overview
 
-Elementra is a modern, reusable component library designed to simplify your workflow and accelerate the development of stunning, accessible, and responsive user interfaces. Built with **React.js**, **Tailwind CSS**, and **Framer Motion**, Elementra empowers developers to craft beautiful UIs with ease.
+Elementra is a modern, reusable component library designed to simplify your workflow and accelerate the development of stunning, accessible, and responsive user interfaces. Built with **React.js**, **Next.js**, **Tailwind CSS**, and **Framer Motion**, Elementra empowers developers to craft beautiful UIs with ease.
 
 ## Features 🚀
 
@@ -35,71 +35,60 @@ yarn add elementra-ui
 pnpm add elementra-ui
 ```
 
+```bash
+# Using npx
+npx install elementra-ui add
+```
+
+## Required Dependencies 📦
+
+Install the following utilities that are required for Elementra UI:
+
+```bash
+# Using npm
+npm install clsx tailwind-merge
+```
+
+Select components using the up/down arrow keys. Press spacebar to select multiple components, then press enter to add them to your src folder.
+
 ## Quick Start 💻
 
 ```jsx
-import { Button, Modal } from "elementra";
+import { Button } from "@/src/components/ui/button";"
 
-export default function App() {
+export default function Buttons() {
   return (
     <div>
-      <Button variant="primary">Click Me</Button>
-
-      <Modal isOpen={true} onClose={() => console.log("Closed!")}>
-        <h1>Welcome to Elementra!</h1>
-      </Modal>
+      <Button variant="default">Primary Button</Button>
+      <Button variant="outline">Secondary Button</Button>
+      <Button variant="ghost">Outline Button</Button>
     </div>
-  );
+  )
 }
 ```
 
 ## Component Library 🛠️
 
-### TextInput
-
-A simple input field component.
-
-#### Props:
-
-- `placeholder` (string): Text to display when the input is empty.
-- `value` (string): Controlled value of the input.
-- `onChange` (function): Callback triggered when the input value changes.
-
-
 ### Core Components
 
 - **Buttons**
-  - Primary, secondary, outlined variants
-  - Loading states
-  - Icon support
 
-- **Modals**
-  - Configurable animations
-  - Multiple sizes
-  - Custom positioning
+  - Primary, secondary, outlined,ghost variants
+  - sizes (lg, md, sm)
 
 - **Cards**
   - Flexible layouts
-  - Header/footer support
-  - Hover effects
-
-- **Forms**
-  - Input fields
-  - Checkboxes
-  - Radio buttons
-  - Switches
-  - Select menus
-
+  - Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter
 
 ## Documentation 📖
 
 Visit our [documentation website](https://elementraui.com) for:
+
 - Detailed API references
 - Interactive examples
 - Theme customization guides
 - Best practices
 - Migration guides
-
 
 ## Contributing 🤝
 
@@ -113,22 +102,12 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## Community & Support 💬
 
 - 📫 [GitHub Discussions](https://github.com/elementra/discussions)
-- 🐦 [Twitter @ElementraUI](https://twitter.com/ElementraUI)
 - 📺 [YouTube Channel](https://youtube.com/@waleedcodes)
-- 💬 [Discord Community](https://discord.gg/elementra)
 
 ## License 📄
 
 Elementra is open-source software licensed under the [MIT License](LICENSE).
 
-## Stay Connected 🌐
-
-- Website: [www.elementraui.com](https://www.elementraui.com)
-- Twitter: [@ElementraUI](https://twitter.com/ElementraUI)
-- YouTube: [WaleedCodes](https://youtube.com/@waleedcodes)
-
----
-
 <div align="center">
-  Made with ❤️ by the Elementra Team @waleecodes
+  Made with ❤️ by @waleedcodes
 </div>
