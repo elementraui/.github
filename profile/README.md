@@ -4,7 +4,7 @@ Your Building Blocks for Modern UIs
 
 [![npm version](https://img.shields.io/npm/v/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dm/elementra.svg)](https://www.npmjs.com/package/elementra-ui)
+[![Downloads](https://img.shields.io/npm/dm/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
 
 </div>
 
@@ -37,7 +37,7 @@ pnpm add elementra-ui
 
 ```bash
 # Using npx
-npx install elementra-ui add
+npx elementra-ui add
 ```
 
 ## Required Dependencies 📦
