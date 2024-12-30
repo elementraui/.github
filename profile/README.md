@@ -1,4 +1,4 @@
-# Elementra
+# Elementra UI
 
 Your Building Blocks for Modern UIs
 
@@ -10,7 +10,7 @@ Your Building Blocks for Modern UIs
 
 ## Overview
 
-Elementra is a modern, reusable component library designed to simplify your workflow and accelerate the development of stunning, accessible, and responsive user interfaces. Built with **React.js**, **Next.js**, **Tailwind CSS**, and **Framer Motion**, Elementra empowers developers to craft beautiful UIs with ease.
+Elementra UI is a modern, reusable component library designed to simplify your workflow and accelerate the development of stunning, accessible, and responsive user interfaces. Built with **React.js**, **Next.js**, **Tailwind CSS**, and **Framer Motion**, Elementra empowers developers to craft beautiful UIs with ease.
 
 ## Features 🚀
 
@@ -22,7 +22,7 @@ Elementra is a modern, reusable component library designed to simplify your work
 
 ## Installation 📦
 
-Install Elementra using your preferred package manager:
+Install Elementra UI using your preferred package manager:
 
 ```bash
 # Using npm
@@ -73,7 +73,7 @@ export default function Buttons() {
 
 - **Buttons**
 
-  - Primary, secondary, outlined,ghost variants
+  - Primary,  secondary,  outlined, ghost variants
   - sizes (lg, md, sm)
 
 - **Cards**
@@ -82,7 +82,7 @@ export default function Buttons() {
 
 ## Documentation 📖
 
-Visit our [documentation website](https://elementraui.com) for:
+Visit our [documentation website](https://elementra-ui.vercel.app/docs/) for:
 
 - Detailed API references
 - Interactive examples
@@ -101,7 +101,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## Community & Support 💬
 
-- 📫 [GitHub Discussions](https://github.com/elementra/discussions)
+- 📫 [GitHub Discussions](https://github.com/elementra-ui/discussions)
 - 📺 [YouTube Channel](https://youtube.com/@waleedcodes)
 
 ## License 📄
