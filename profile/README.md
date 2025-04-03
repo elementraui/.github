@@ -1,113 +1,108 @@
 # Elementra UI
 
-Your Building Blocks for Modern UIs
-
-[![npm version](https://img.shields.io/npm/v/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dm/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
-
+<div>
+  
+  Your Building Blocks for Modern UIs
+  
+  [![npm version](https://img.shields.io/npm/v/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Downloads](https://img.shields.io/npm/dm/elementra-ui.svg)](https://www.npmjs.com/package/elementra-ui)
+  
 </div>
 
 ## Overview
 
 Elementra UI is a modern, reusable component library designed to simplify your workflow and accelerate the development of stunning, accessible, and responsive user interfaces. Built with **React.js**, **Next.js**, **Tailwind CSS**, and **Framer Motion**, Elementra empowers developers to craft beautiful UIs with ease.
 
-## Features 🚀
+## Features ✨
 
-- **Customizable Components**: Tailor components to fit your brand and design system effortlessly
-- **Theming Support**: Light, dark, and custom themes out-of-the-box
-- **Built-in Animations**: Smooth, high-performance animations powered by Framer Motion
-- **Accessibility First**: Designed to meet modern accessibility standards
-- **Lightweight & Performant**: Minimal dependencies, maximum efficiency
+- 🎨 **Modern Design**: Beautiful, consistent components following modern design principles
+- 📱 **Responsive**: Fully responsive components that work across all devices
+- ♿ **Accessible**: Built with accessibility in mind, following WAI-ARIA standards
+- 🎭 **Animations**: Smooth animations powered by Framer Motion
+- 🔧 **JavaScript-Based**: Built with vanilla JavaScript for maximum compatibility
+- 🎨 **Customizable**: Easy theming and style customization with Tailwind CSS
+
+## Available Components 🧱
+
+- 🔘 Button
+- 🎯 Alert
+- 🏷️ Badge
+- 💳 Card
+- 🖼️ Modal
+- 📊 Progress
+- 📝 Select
+- 🔄 Switch
+- 📑 Tabs
+- 🍞 Toast
+- ... and more coming soon!
 
 ## Installation 📦
 
-Install Elementra UI using your preferred package manager:
+You can install Elementra UI using either npm or GitHub Packages:
 
 ```bash
 # Using npm
 npm install elementra-ui
 
-# Using yarn
-yarn add elementra-ui
-
-# Using pnpm
-pnpm add elementra-ui
+# Using GitHub Packages
+npm install @waleedcodes/elementra-ui
 ```
 
-```bash
-# Using npx
-npx elementra-ui add
-```
+## Quick Start 🚀
 
-## Required Dependencies 📦
-
-Install the following utilities that are required for Elementra UI:
+1. Install required dependencies:
 
 ```bash
-# Using npm
 npm install clsx tailwind-merge
+```
+
+2. Add components using the CLI:
+
+```bash
+npx elementra-ui add
 ```
 
 Select components using the up/down arrow keys. Press spacebar to select multiple components, then press enter to add them to your src folder.
 
-## Quick Start 💻
+3. Import and use components:
 
 ```jsx
-import { Button } from "@/src/components/ui/button";"
+import { Button } from "@/components/ui/button";
 
-export default function Buttons() {
-  return (
-    <div>
-      <Button variant="default">Primary Button</Button>
-      <Button variant="outline">Secondary Button</Button>
-      <Button variant="ghost">Outline Button</Button>
-    </div>
-  )
+export default function App() {
+  return <Button variant="default">Click me</Button>;
 }
 ```
 
-## Component Library 🛠️
+## Tailwind CSS Configuration 🎨
 
-### Core Components
+Add this to your **tailwind.config.js**:
 
-- **Buttons**
-
-  - Primary,  secondary,  outlined, ghost variants
-  - sizes (lg, md, sm)
-
-- **Cards**
-  - Flexible layouts
-  - Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter
+```js
+module.exports = {
+  content: ["./src/components/**/*.{js,jsx}"],
+  plugins: [require("tailwindcss-animate")],
+};
+```
 
 ## Documentation 📖
 
 Visit our [documentation website](https://elementra-ui.vercel.app/docs/) for:
 
-- Detailed API references
-- Interactive examples
-- Theme customization guides
-- Best practices
-- Migration guides
-
-## Contributing 🤝
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
-
-1. Setting up the development environment
-2. Submitting pull requests
-3. Code style guidelines
-4. Bug reporting process
+- 📚 Component API references
+- 💡 Interactive examples
+- 🎨 Theme customization
+- ⚡ Best practices
+- 🔄 Migration guides
 
 ## Community & Support 💬
 
-- 📫 [GitHub Discussions](https://github.com/elementra-ui/discussions)
+- 💬 [GitHub Discussions](https://github.com/elementra-ui/discussions)
 - 📺 [YouTube Channel](https://youtube.com/@waleedcodes)
+- 🐦 [Twitter](https://twitter.com/waleedcodes)
+- 📝 [Blog](https://elementra-ui.vercel.app/blog)
 
-## License 📄
-
-Elementra is open-source software licensed under the [MIT License](LICENSE).
-
-<div align="center">
-  Made with ❤️ by @waleedcodes
+<div>
+  Made with ❤️ by <a href="https://github.com/waleedcodes">@waleedcodes</a> © 2025 Elementra UI. All rights reserved.
 </div>
